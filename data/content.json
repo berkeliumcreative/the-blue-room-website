@@ -1,47 +1,100 @@
 {
-  "businessName": "Sample Business",
-  "tagline": "Quality Service You Can Trust",
+  "businessName": "The Blue Room",
+  "tagline": "Burbank's late-night cocktail destination.",
   "hero": {
-    "heading": "Welcome to Our Business",
-    "subheading": "Professional service in your area.",
-    "ctaText": "Contact Us",
-    "ctaLink": "#contact"
+    "heading": "After Dark in Burbank.",
+    "subheading": "Hand-crafted cocktails, low light, vinyl on the speakers. Open every night until 2 AM.",
+    "ctaText": "Reserve a Table",
+    "ctaLink": "tel:3238492779",
+    "image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG21o3Cn2PG04GdYYTNiZF0_uDLspUsFvw0Zm9Bh7vWb5Of5p651J5KSNABL1c4TrJYpT9e6LBpwyZyQ9vCyzWqOAKODceiNAIxk3Ye6uxpuLQdYS5coWH6NwfJMWMVsUfzd8Hw=w1920-h1080-k-no"
   },
   "about": {
-    "heading": "About Us",
+    "heading": "370 reviews. 4.4 stars. Burbank's after-hours secret.",
     "paragraphs": [
-      "We are a local business dedicated to providing quality service.",
-      "Our team has years of experience and we take pride in our work."
+      "The Blue Room is what a cocktail bar is supposed to be — dim lights, attentive bartenders, and a drink menu that rewards curiosity. We pour stiff, we mix slow, and we never rush a good night.",
+      "Open from late morning to last call seven nights a week. Walk in solo, bring a date, or hold the whole back room — we'll set the tone."
     ]
   },
   "services": [
-    { "title": "Service One", "description": "Professional service with attention to detail.", "icon": "star" },
-    { "title": "Service Two", "description": "Quality work at competitive prices.", "icon": "award" },
-    { "title": "Service Three", "description": "Fast, reliable, and thorough.", "icon": "check" }
+    {
+      "title": "Classic Cocktails",
+      "description": "Old fashioneds, manhattans, negronis — the canon, executed with intent.",
+      "price": "From $14"
+    },
+    {
+      "title": "House Originals",
+      "description": "A rotating menu of bartender-developed cocktails inspired by what's in season.",
+      "price": "From $16"
+    },
+    {
+      "title": "Wine & Beer",
+      "description": "A curated by-the-glass list and a tight, well-chosen draft selection.",
+      "price": "From $9"
+    },
+    {
+      "title": "Small Plates",
+      "description": "Late-night bites — flatbreads, charcuterie, and seasonal snacks to keep the conversation going.",
+      "price": "From $12"
+    },
+    {
+      "title": "Private Bookings",
+      "description": "Reserve the back lounge for birthdays, industry nights, and after-parties.",
+      "price": "Inquire"
+    },
+    {
+      "title": "Happy Hour",
+      "description": "Weekday early-evening pricing on house pours and small plates.",
+      "price": "5 PM – 7 PM"
+    }
+  ],
+  "reviews": [
+    {
+      "name": "Alex M.",
+      "text": "Easily the best cocktail program in Burbank. The bartender remembered my order from a month ago.",
+      "rating": 5
+    },
+    {
+      "name": "Sarah K.",
+      "text": "Dark, sexy, low-key. Perfect first-date spot. Cocktails are stiff and beautifully balanced.",
+      "rating": 5
+    },
+    {
+      "name": "Marco D.",
+      "text": "Late hours are clutch. Came in at midnight, full menu still going, music on point. My new spot.",
+      "rating": 4
+    }
   ],
   "contact": {
-    "address": "123 Main St, City, ST 12345",
-    "phone": "(555) 123-4567",
-    "email": "info@sample.com",
+    "phone": "(323) 849-2779",
+    "email": "info@theblueroom.bar",
+    "address": "916 S San Fernando Blvd, Burbank, CA",
+    "mapEmbedQuery": "The Blue Room, 916 S San Fernando Blvd, Burbank, CA",
     "hours": {
-      "Monday": "9:00 AM - 5:00 PM",
-      "Tuesday": "9:00 AM - 5:00 PM",
-      "Wednesday": "9:00 AM - 5:00 PM",
-      "Thursday": "9:00 AM - 5:00 PM",
-      "Friday": "9:00 AM - 5:00 PM",
-      "Saturday": "10:00 AM - 3:00 PM",
-      "Sunday": "Closed"
-    },
-    "mapEmbedQuery": "123+Main+St+City+ST"
+      "Monday": "10 AM – 2 AM",
+      "Tuesday": "10 AM – 2 AM",
+      "Wednesday": "10 AM – 2 AM",
+      "Thursday": "10 AM – 2 AM",
+      "Friday": "10 AM – 2 AM",
+      "Saturday": "10 AM – 2 AM",
+      "Sunday": "10 AM – 2 AM"
+    }
   },
   "seo": {
-    "title": "Sample Business | City, ST",
-    "description": "Sample Business in City, ST. Professional services you can trust.",
-    "keywords": ["sample business", "city ST", "professional services"]
+    "title": "The Blue Room — Cocktail Bar in Burbank, CA | Open Nightly Until 2 AM",
+    "description": "Hand-crafted cocktails, late-night small plates, and Burbank's best after-hours atmosphere. Open every day 10 AM – 2 AM.",
+    "keywords": [
+      "cocktail bar burbank",
+      "late night bar burbank",
+      "the blue room burbank",
+      "burbank nightlife",
+      "happy hour burbank",
+      "private events burbank"
+    ]
   },
   "theme": {
-    "primaryColor": "#0a0a0a",
-    "accentColor": "#c8a97e",
-    "fontFamily": "modern"
-  }
+    "primaryColor": "#5BA3D0",
+    "accentColor": "#0E1B2C",
+    "fontFamily": "playfair"
+  },
+  "social": {}
 }
