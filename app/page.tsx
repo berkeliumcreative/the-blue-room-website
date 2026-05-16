@@ -15,6 +15,9 @@ const VIOLET_GLOW = "#A899FF";
 const TEXT = "#E8E8FF";
 const TEXT_MUTED = "#9090B8";
 
+
+const GALLERY = ["https://lh3.googleusercontent.com/gps-cs-s/APNQkAG21o3Cn2PG04GdYYTNiZF0_uDLspUsFvw0Zm9Bh7vWb5Of5p651J5KSNABL1c4TrJYpT9e6LBpwyZyQ9vCyzWqOAKODceiNAIxk3Ye6uxpuLQdYS5coWH6NwfJMWMVsUfzd8Hw=w1920-h1080-k-no","https://lh3.googleusercontent.com/gps-cs-s/APNQkAH64pW-BYV5u7hBbhQQHnqpppVW11KgP6NKk0r4Ifr-0DJ216gu4UAlQLUVGrU-Fu0beUAqDdzVXw2vHywg9DOkQDrGjU01VBXiJtmUF7-aPQSJoGlUodow0gHCtdIB4egLvaIuEg=w1920-h1080-k-no","https://lh3.googleusercontent.com/gps-cs-s/APNQkAGy-Nz3QQoGL2vNua_JVy2oVYTd9c9XAwAvLE-TUZcyew8AZzLfnehSWDR0MeennAg6OVrWPoQ3ZT5TLh9eKDgD7SCNya1CHSwHeUINlJ4VpNdR7O4u2p75vs4uyaFK64v2IPQh=w1920-h1080-k-no","https://lh3.googleusercontent.com/gps-cs-s/APNQkAHjBmhk0YdDrKdzSQAYGmryo7lZvwrzuev38N1osLo2oYD7tPkdS2EL1dHhhsldHBIqkxGYm-gLc4-9kbtkFkPR8RjScWtIfMpUlkMYV2Syp-3WyaLFIeuWxXINVEcAXTgngl8UIgYuCMyc=w1920-h1080-k-no","https://lh3.googleusercontent.com/gps-cs-s/APNQkAFb7sdc4tI7wZr3ynV8wVoUJ1Al4lZvTWK8BuYf-5uub5Y6Et1OwCmLeRPqvGoRHhb21p7fkYB_JOwyNqrUk5Xr1Pykv2L9orMB_De5Zc1O47tj-2XCDgExEZzWbXnQXdleMRuM=w1920-h1080-k-no","https://lh3.googleusercontent.com/gps-cs-s/APNQkAEjc7yPxfitlO2RbmvlgGDqRc8n_NDgf1tfTD9OFag87MVar9KlISI2BeG6lSo88aGWiRA0uT7wsNUGncbOjD0T3LlwXwfZ0rysrjHVe2vXYwSrTW-386nCTZHVtg1YioKnJiora5NKBpg=w1920-h1080-k-no","https://lh3.googleusercontent.com/gps-cs-s/APNQkAEGsHBfd9eFt80tvsVGYQsuY2DwPvBWyqJJ0wokVmkUcRdGmyP_xvIRZ6YAMip9vy6O6pFKtpCCsK58HW6l5CE5Y5AYDTOVbQV1S-qQM2uvypjzdRs3J0mFnobN14KdKo-a143ywHN5MAF-=w1920-h1080-k-no","https://lh3.googleusercontent.com/gps-cs-s/APNQkAGFY7wc64oMWAbpBiHiDmdgfAlAAz6HLBy9QKMjMJVTSxtPy_IrngM6tuknYYtELyY1GwcaoCkYiunLijW2otzJdhG6MFoPwdFZeP4fFVVpmFQTpnLUatp5enhjlbp7WMc6WmY=w1920-h1080-k-no","https://lh3.googleusercontent.com/gps-cs-s/APNQkAF8kJJtYWdcgj3eR7Bb8BBnzXg9sQruoqRT7ZHONL0SQ70TqWf2uLbEm6M1dKcConh3UQIs6l_TVU6veTtjh4hkBVmDzJSPQnlIODSxyFS6e3mDQXrBfXDg7DatP1L_40cGiM6kRA=w1920-h1080-k-no","https://lh3.googleusercontent.com/gps-cs-s/APNQkAGVHdEYPhLq5MyviXp9v3UDBKU9qHJxgK62MCZxqqty95mSLQlb1qjGXuSTay8SjUhmY0tskHplr8-0nizRxN4AY9uArLpzKIkhIvJhwuHey_IaXUmxeY2ThYpA0XI1DJBsQTZOEg=w1920-h1080-k-no","https://lh3.googleusercontent.com/gps-cs-s/APNQkAHmNIvZaSsdWdSVO_BCJX0BkQgozPiCt1aYMsJsfSI7LFMt9iBqDl_qvAxWRtAYPvR5fVAyXZtdYwhJnsH3Uhj-Zi61jt5nS4FDU9T0D_mLkgoVF4FuRcIAxw3tA2pdAwbeqhl8=w1920-h1080-k-no","https://lh3.googleusercontent.com/gps-cs-s/APNQkAHE3nNkIi2cPoPcOyx0PqGoDYrYYh2RCYP1ErpIcJJSIlgRv1ZOU6su_qkMzViZH2fR3R8R0H6Yhtshxw6ewSlXLokzj__7gvQCZZdshDjW1yIv11TqB4bhGgfgljwOjcxmPJtddw=w1920-h1080-k-no","https://lh3.googleusercontent.com/gps-cs-s/APNQkAGoXDgE1NYlivKp5q1HChcTUGdueaBaxJmQk6W4mYgN5_wYxScnfSWzerbjtEUjqRaKBHvQO-5nz99Ua9ygUYhrUdxLHSXeWEDuekBNYZ34bU45WYLiHO-63aU2I9O1qs4xPFVfTHm9kvQ=w1920-h1080-k-no","https://lh3.googleusercontent.com/gps-cs-s/APNQkAFZjEAsNlzec_qMUJgz7MJx42GqiTJfZJWcUhHA8OO1a-RSMx9kc74e_5n1Nd-LXUW5YQH8BhB36W3JVYwxx51p5X3Wwo33rJ8I2AE9ORyr0LRZRittQ6pJXbOKVxjii5VR40scbQ=w1920-h1080-k-no","https://lh3.googleusercontent.com/gps-cs-s/APNQkAHxHYneSazrmpMhVSjC_3gGCMSQko1g_wzzUM6YsaFZL5aBe2biRNOjKJkKgOE_GJG--AyJiojfNzBro8-fFzQ0sMcF7lpk_wnJu34SPFIFkxl_E2bdKyrzMSlL-6Mv7k4j0nL5fw=w1920-h1080-k-no","https://lh3.googleusercontent.com/gps-cs-s/APNQkAHeGeu3tI7RP603shigvzFmvjP7PcmHpmZHq9I4uP5ddK08vev4uRR4HxxO15HTRl_5qB_lAHTKGjwH2sbhlz_Soj9JUfpPUCygH0nDWeOtyNzrehI51TDlDt9eSkRDBCsqXA0=w1920-h1080-k-no","https://lh3.googleusercontent.com/gps-cs-s/APNQkAFy4y75I3YSZn-MBlAnku1EziQ6hMPBOLwiDpzg0MeSkXQxh2rzjho9Y3veisKlQ_F1YaRLvjinZnnBfvp63DXPpi2OO-bi6CAgdrZTuI0KnoO_tN6pyyv6OTIAPGGHvC-tYw=w1920-h1080-k-no","https://lh3.googleusercontent.com/gps-cs-s/APNQkAHEhZ_bMh38Zavn6pmyqy8cEm5vc2spvQQozq1yFl8K0cPZcm8huLvmr-3o67SB95axgwE6kOk2v1QgFpm1nJpyQvI7M7DAkid3qbZpMoiunSypu7wbv3Vus5C5KvPVc4uYPnm71A=w1920-h1080-k-no","https://lh3.googleusercontent.com/gps-cs-s/APNQkAELFUkl1G3VRBOL9p23OuU48ZazTC3zNQmcjpcwpSgbvgDuvXLJ5haQNksM03e-8txTYK1hu9zq5j15OABsrJlUNRfSFYrqoHBiY0nL0fYCq7gc-PHWyTfHAlhO_S9XQGExUpqdMUP9XgnG=w1920-h1080-k-no","https://lh3.googleusercontent.com/gps-cs-s/APNQkAFJfQuuvRfzXOqTg3yRqqW4Lu2LuCQMF5EB4oH89WPx34m7uzRtc0bJV5HpV7CZzASXacgMBdxoOFagAoL5WzktdKtkhDLTU49Yd5UY_Psnh3UN2on1l-qOS2C1Nm_NlVuQxXIwJ8IDI4I=w1920-h1080-k-no"];
+
 export default function Page() {
   const phoneTel = "tel:" + content.contact.phone.replace(/[^0-9]/g, "");
   const mapUrl =
@@ -147,6 +150,23 @@ export default function Page() {
               </div>
               <p className="text-base leading-relaxed" style={{ color: TEXT }}>&ldquo;{r.text}&rdquo;</p>
               <p className="mt-6 text-xs tracking-widest uppercase font-medium" style={{ color: VIOLET_GLOW }}>— {r.name}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      {/* GALLERY — soft floating cards */}
+      <section className="max-w-7xl mx-auto px-6 md:px-10 py-24 md:py-32">
+        <div className="text-center mb-16">
+          <p className="text-xs font-medium tracking-widest uppercase mb-5" style={{ color: VIOLET_GLOW }}>Inside the room</p>
+          <h2 style={{ fontSize: "clamp(2.5rem, 6vw, 4.5rem)", fontWeight: 300, color: TEXT, lineHeight: 1.0, letterSpacing: "-0.03em" }}>
+            Low light. <span style={{ color: VIOLET, fontWeight: 500 }}>Slow pours.</span>
+          </h2>
+        </div>
+        <div className="grid md:grid-cols-3 gap-5">
+          {GALLERY.slice(0, 9).map((p, i) => (
+            <div key={i} className="soft-card overflow-hidden aspect-[4/5]" style={{ borderRadius: "20px", padding: "8px" }}>
+              <div className="w-full h-full bg-cover bg-center" style={{ backgroundImage: `url("${p}")`, borderRadius: "14px" }} />
             </div>
           ))}
         </div>
