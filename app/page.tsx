@@ -164,7 +164,7 @@ export default function Page() {
           </h2>
         </div>
         <div className="grid md:grid-cols-3 gap-5">
-          {GALLERY.slice(0, 9).map((p, i) => (
+          {GALLERY.slice(0, 20).map((p, i) => (
             <div key={i} className="soft-card overflow-hidden aspect-[4/5]" style={{ borderRadius: "20px", padding: "8px" }}>
               <div className="w-full h-full bg-cover bg-center" style={{ backgroundImage: `url("${p}")`, borderRadius: "14px" }} />
             </div>
